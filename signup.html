@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/lstyle.css">
+    <title data-i18n="register">top-one Sign Up</title> 
+</head>
+<body>
+
+
+     
+
+    <main class="main-login">
+        <div class="login-container">
+            <h1 class="title login-title " data-i18n="register">Sign Up</h1>
+
+            <form action="register.php" method="post">
+                    <label for="user_name" data-i18n="userName">Username</label>
+                    <input type="text" name="username" required>
+                    <label for="password" data-i18n="password">Password</label>
+                    <p style="font-size:11px;color:#71767B" data-i18n="passwordNote"></p>
+                    <div class="pass-cont">
+                    <input type="password" name="password" required>
+                         <i id="font" class="bx bx-low-vision pass-toggle" aria-hidden="true"></i>
+                    </div>
+                    <label for="full_name" data-i18n="fullName">Full Name</label>
+                    <input type="text" name="full_name" required>
+                    <label for="email" data-i18n="email">Email</label>
+                    <input type="email" name="email" required>
+
+                    
+                    <div class="btn">
+                     <button type="submit" name="submit" data-i18n="register">Sign Up</button> 
+                     </div>
+                    
+            </form>
+            
+            <a href="" data-i18n="alreadyYouHaveAcount">Already You Have Acount ? Login</a>
+        </div>
+
+    </main>
+
+</body>
+</html>

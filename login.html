@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/lstyle.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js/script1.js" type="module"></script>
+
+    <title data-i18n="login">top-one Login</title>
+    
+</head>
+</head>
+<body>
+    <main class="main-login">
+        <div class="login-container">
+            <h1 class="title login-title" data-i18n="login">Login</h1>
+
+            <form action="login.html" method="post">
+                    <label for="username" data-i18n="userName">Username</label>
+                    <input type="text" name="username" required>
+                    <label for="password" data-i18n="password">Password</label>
+                    <div class="pass-cont">
+                    <input type="password" name="password" required>
+                         <i id="font" class="bx bx-low-vision pass-toggle" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="btn">
+                         <button type="submit" name="submit" data-i18n="login">Login</button> 
+                     </div>
+            </form>
+            
+            <a href="register.php" data-i18n="register">Sign Up</a>
+        </div>
+
+    </main>
+</body>
+</html>
